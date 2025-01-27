@@ -46,7 +46,7 @@
 &kp GRAVE       &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR        &kp PERCENT       &kp CARET        &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
 &kp CLCK        &kp N1           &kp N2       &kp N3     &kp N4            &kp N5            &kp N6           &kp N7             &kp N8        &kp N9                &kp N0                 &kp SQT
 &kp LEFT_SHIFT  &trans           &kp TILDE    &kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp COMMA     &kp PERIOD            &kp BSLH               &kp EQUAL
-                                              &kp LCTRL  &kp TAB           &kp SPACE         &kp SPACE        &trans             &kp RSHIFT
+                                              &kp LCTRL  &kp TAB           &kp SPACE         &kp RETURN       &trans             &kp RSHIFT
             >;
         };
 
@@ -61,7 +61,7 @@
 &kp F1     &kp F2     &kp F3            &kp F4            &kp F5            &kp F6                  &kp F7          &kp F8          &kp F9        &kp F10          &kp F11        &kp F12
 &kp CAPS   &kp LG(A)  &kp LG(E)         &kp LG(D)         &kp LG(F)         &kp LG(T)               &kp LG(H)       &kp LG(J)       &kp LG(K)     &kp LG(L)        &kp PAGE_UP    &kp HOME
 &kp LSHFT  &trans     &kp LG(NUMBER_4)  &kp LG(NUMBER_3)  &kp LG(NUMBER_2)  &kp LG(LS(NUMBER_1))    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp END
-                                        &kp LCTRL         &kp TAB           &kp SPACE               &kp SPACE       &trans          &kp RSHIFT
+                                        &kp LCTRL         &kp TAB           &kp SPACE               &kp RETURN      &trans          &kp RSHIFT
             >;
         };
     };
