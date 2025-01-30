@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1        &kp F2     &kp F3                &kp F4                &kp F5                &kp F6                  &kp F7          &kp F8          &kp F9        &kp F10          &kp F11        &kp F12
-&mt CAPS TAB  &kp LG(A)  &kp LG(E)             &kp LG(D)             &kp LG(F)             &kp LG(T)               &kp LG(H)       &kp LG(J)       &kp LG(K)     &kp LG(L)        &kp PAGE_UP    &kp SQT
-&kp LSHIFT    &kp HOME   &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_1))    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp END
-                                               &kp LCTRL             &kp RETURN            &kp SPACE               &trans          &trans          &kp RSHIFT
+&kp F1        &kp F2  &kp F3      &kp F4     &kp F5      &kp F6           &kp F7          &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
+&mt CAPS TAB  &trans  &kp DELETE  &trans     &kp HOME    &kp PAGE_UP      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &kp SQT
+&kp LSHIFT    &trans  &kp INSERT  &trans     &kp END     &kp PAGE_DOWN    &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))   &trans   &trans
+                                  &kp LCTRL  &kp RETURN  &kp SPACE        &trans          &trans          &kp RSHIFT
             >;
         };
     };
