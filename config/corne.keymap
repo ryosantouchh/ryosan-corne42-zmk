@@ -13,7 +13,7 @@
 
         jk_escape {
             bindings = <&kp ESC>;
-            key-positions = <20 19>;
+            key-positions = <20 21>;
         };
     };
 
