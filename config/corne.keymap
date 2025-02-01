@@ -14,22 +14,22 @@
 
         jk_escape {
             bindings = <&kp ESC>;
-            key-positions = <20 21>;
+            key-positions = <20 19>;
         };
 
         op_equal {
             bindings = <&kp EQUAL>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
         };
 
         sqt {
             bindings = <&kp SQT>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         minus_underscore {
             bindings = <&kp MINUS>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
         };
 
         dollar {
@@ -39,7 +39,7 @@
 
         zero {
             bindings = <&kp N0>;
-            key-positions = <10 11>;
+            key-positions = <10 9>;
         };
     };
 
@@ -85,10 +85,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1  &kp N2  &kp N3     &kp N4   &kp N5       &kp N6                &kp N7                 &kp N8            &kp N9             &kp N0   &kp BSPC
-&kp CAPS    &trans  &trans  &K8        &J8      &kp DLLR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT  &kp RETURN
-&kp LSHIFT  &trans  &trans  &trans     &trans   &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE         &kp PERIOD         &trans   &kp RIGHT_ALT
-                            &kp LCTRL  &kp TAB  &kp SPACE    &trans                &trans                 &kp RIGHT_SHIFT
+&kp ESCAPE  &kp N1  &kp N2     &kp N3                &kp N4                 &kp N5       &kp N6                &kp N7            &kp N8             &kp N9      &kp N0   &kp BSPC
+&kp CAPS    &trans  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DLLR     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL   &kp SQT  &kp RETURN
+&kp LSHIFT  &trans  &trans     &trans                &trans                 &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp COMMA          &kp PERIOD  &trans   &kp RIGHT_ALT
+                               &kp LCTRL             &kp TAB                &kp SPACE    &trans                &trans            &kp RIGHT_SHIFT
             >;
         };
 
