@@ -31,20 +31,30 @@
             bindings = <&kp MINUS>;
             key-positions = <7 8>;
         };
+
+        dollar {
+            bindings = <&kp DLLR>;
+            key-positions = <3 4>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <10 9>;
+        };
     };
 
     macros {
-        J5: J5 {
+        J8: J5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N5 &kp J>;
+            bindings = <&kp N8 &kp J>;
             label = "J5";
         };
 
-        K5: K5 {
+        K8: K5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N5 &kp K>;
+            bindings = <&kp N8 &kp K>;
             label = "K5";
         };
     };
@@ -76,7 +86,7 @@
 
             bindings = <
 &kp ESCAPE  &kp N1  &kp N2  &kp N3     &kp N4   &kp N5         &kp N6     &kp N7                &kp N8                 &kp N9            &kp N0             &kp BSPC
-&kp CAPS    &trans  &trans  &K5        &J5      &key_repeat    &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RETURN
+&kp CAPS    &trans  &trans  &K8        &J8      &key_repeat    &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RETURN
 &kp LSHIFT  &trans  &trans  &trans     &trans   &trans         &kp BSLH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERIOD        &trans             &kp RIGHT_ALT
                             &kp LCTRL  &kp TAB  &kp SPACE      &trans     &trans                &kp RIGHT_SHIFT
             >;
