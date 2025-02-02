@@ -105,7 +105,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1          &kp F2      &kp F3        &kp F4        &kp F5        &kp F6          &kp H           &kp J           &kp K         &kp L            &kp INS        &kp DEL
+&kp F1          &kp F2      &kp F3        &kp F4        &kp F5        &kp F6          &kp LG(H)       &kp LG(J)       &kp LG(K)     &kp LG(L)        &kp INS        &kp DEL
 &kp F7          &kp F8      &kp F9        &kp F10       &kp F11       &kp F12         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp HOME
 &kp LEFT_SHIFT  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp LG(N1)      &kp LG(N2)      &kp LG(N3)    &kp LG(N4)       &kp PAGE_DOWN  &kp END
                                           &kp CAPS      &kp TAB       &kp SPACE       &trans          &trans          &trans
