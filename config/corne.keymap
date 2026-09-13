@@ -67,8 +67,8 @@
 
             bindings = <
 &kp ESC             &kp EXCL  &kp AT_SIGN  &kp HASH              &kp DOLLAR             &kp PERCENT    &kp CARET       &kp AMPERSAND     &kp ASTERISK       &kp MINUS  &kp EQUAL  &kp BSPC
-&kp CAPS            &trans    &trans       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &K5            &kp GRAVE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans     &kp BACKSLASH
-&mt LEFT_SHIFT TAB  &trans    &trans       &trans                &kp GRAVE              &J5            &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans     &trans     &kp LCTRL
+&kp CAPS            &none     &none        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &K5            &kp GRAVE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none      &trans     &kp BACKSLASH
+&mt LEFT_SHIFT TAB  &none     &none        &none                 &kp GRAVE              &J5            &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans     &trans     &kp LCTRL
                                            &kp LEFT_GUI          &trans                 &kp SPACE      &kp SPACE       &kp ENTER         &kp RALT
             >;
         };
@@ -82,7 +82,7 @@
 
             bindings = <
 &kp ESCAPE          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6    &kp N7          &kp N8        &kp N9           &kp N0         &kp BACKSPACE
-&kp CAPS            &kp INSERT    &kp DEL       &trans        &trans        &mo 3           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp HOME
+&kp CAPS            &kp INSERT    &kp DEL       &none         &none         &mo 3           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp HOME
 &mt LEFT_SHIFT TAB  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp LG(N1)      &kp LG(N2)      &kp LG(N3)    &kp LG(N4)       &kp PAGE_DOWN  &kp END
                                                 &kp LEFT_GUI  &kp ENTER     &kp SPACE       &kp SPACE       &trans          &kp LCTRL
             >;
