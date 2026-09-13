@@ -14,7 +14,7 @@
 
         colonforvim {
             bindings = <&kp COLON>;
-            key-positions = <16 19>;
+            key-positions = <19 18>;
             layers = <0>;
         };
     };
@@ -74,10 +74,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC             &kp EXCL  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp CAPS            &trans    &trans       &trans     &trans      &K5            &kp MINUS       &kp SINGLE_QUOTE  &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RETURN
-&mt LEFT_SHIFT TAB  &trans    &trans       &trans     &trans      &J5            &kp UNDERSCORE  &kp GRAVE         &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH
-                                           &kp LCTRL  &kp LGUI    &kp SPACE      &trans          &trans            &trans
+&kp ESC             &kp EXCL  &kp AT_SIGN  &kp HASH              &kp DOLLAR             &kp PERCENT    &kp CARET         &kp AMPERSAND     &kp ASTERISK       &kp MINUS  &kp EQUAL  &kp BSPC
+&kp CAPS            &trans    &trans       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &K5            &kp SINGLE_QUOTE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans     &trans     &kp RETURN
+&mt LEFT_SHIFT TAB  &trans    &trans       &trans                &trans                 &J5            &kp BACKSLASH     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans     &kp RIGHT_SHIFT
+                                           &kp LCTRL             &kp LGUI               &kp SPACE      &trans            &trans            &trans
             >;
         };
 
