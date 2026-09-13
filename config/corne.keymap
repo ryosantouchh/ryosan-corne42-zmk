@@ -53,7 +53,7 @@
             bindings = <
 &kp ESC             &kp Q  &kp W  &kp E         &kp R      &kp T        &kp Y  &kp U  &kp I          &kp O    &kp P          &kp BSPC
 &kp CAPS            &kp A  &kp S  &kp D         &kp F      &kp G        &kp H  &kp J  &kp K          &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C         &kp V      &kp B        &kp N  &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp LCTRL
+&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C         &kp V      &kp B        &kp N  &kp M  &kp COMMA      &kp DOT  &kp FSLH       &mt RIGHT_SHIFT LCTRL
                                   &kp LEFT_GUI  &kp ENTER  &kp SPACE    &mo 1  &mo 2  &kp RIGHT_ALT
             >;
         };
@@ -68,7 +68,7 @@
             bindings = <
 &kp ESC             &kp EXCL  &kp AT_SIGN  &kp HASH              &kp DOLLAR             &kp PERCENT    &kp CARET       &kp AMPERSAND     &kp ASTERISK       &kp MINUS      &kp EQUAL  &kp BSPC
 &kp CAPS            &none     &none        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &K5            &kp GRAVE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &trans     &trans
-&mt LEFT_SHIFT TAB  &none     &none        &none                 &kp GRAVE              &J5            &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &trans     &kp LCTRL
+&mt LEFT_SHIFT TAB  &none     &none        &none                 &kp GRAVE              &J5            &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &trans     &mt RIGHT_SHIFT LCTRL
                                            &kp LEFT_GUI          &kp ENTER              &kp SPACE      &trans          &trans            &kp RALT
             >;
         };
