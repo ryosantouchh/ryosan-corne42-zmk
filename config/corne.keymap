@@ -28,15 +28,32 @@
     };
 
     behaviors {
-        hm: hm {
+        hml: hml {
             compatible = "zmk,behavior-hold-tap";
-            label = "HM";
+            label = "HML";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <130>;
-            quick-tap-ms = <180>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            hold-trigger-key-positions = <6 18 30 31 19 7 8 20 32 33 21 9 10 22 34 35 23 11 36 37 38 39 40 41>;
+            hold-trigger-on-release;
+        };
+
+        hm_r: hm_r {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HM_R";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            hold-trigger-key-positions = <36 37 38 39 40 41 29 17 5 4 16 28 27 15 3 2 14 26 25 13 1 0 12 24>;
+            hold-trigger-on-release;
         };
     };
 
@@ -51,10 +68,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC             &kp Q  &kp W  &kp E               &kp R         &kp T        &kp Y  &kp U  &kp I          &kp O    &kp P          &kp BSPC
-&kp CAPS            &kp A  &kp S  &kp D               &kp F         &kp G        &kp H  &kp J  &kp K          &kp L    &kp SEMICOLON  &kp ENTER
-&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C               &kp V         &kp B        &kp N  &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                                  &mt LEFT_ALT LCTRL  &kp LEFT_GUI  &kp SPACE    &mo 1  &mo 2  &kp RIGHT_ALT
+&kp ESC    &kp Q              &kp W  &kp E               &kp R         &kp T          &kp Y         &kp U  &kp I          &kp O    &kp P                        &kp BSPC
+&kp TAB    &hml LEFT_SHIFT A  &kp S  &kp D               &kp F         &hml CAPS G    &hm_r CAPS H  &kp J  &kp K          &kp L    &hm_r RIGHT_SHIFT SEMICOLON  &kp ENTER
+&kp LCTRL  &kp Z              &kp X  &kp C               &kp V         &kp B          &kp N         &kp M  &kp COMMA      &kp DOT  &kp FSLH                     &kp GRAVE
+                                     &mt LEFT_ALT LCTRL  &kp LEFT_GUI  &kp SPACE      &mo 1         &mo 2  &kp RIGHT_ALT
             >;
         };
 
